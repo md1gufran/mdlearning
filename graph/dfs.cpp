@@ -33,6 +33,7 @@ int main()
         visited[v] = false;
     }
 
+    //If there any kind of component
     for(int i=0;i<n;i++){
         if(!visited[i]){
             vector<int> component;
